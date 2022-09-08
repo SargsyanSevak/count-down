@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+    letter-spacing: 10px;
+  }
+  
+  .coming-soon {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 10px #c79123;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/1303098/pexels-photo-1303098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100%;
+    color: rgb(255, 0, 0);
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 6rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
